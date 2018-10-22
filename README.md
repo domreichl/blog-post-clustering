@@ -6,12 +6,11 @@ My blog (https://www.mindcoolness.com) currently has 322 blog posts, which I hav
 Methods: TfidfVectorizer & KMeans
 
 Overview:
-
-    Get Data
-    Vectorize Text
-    Analyze Clusters
-    Compare Predictions
-    Plot Results
-    Explore Clusters
+1. Get Data
+2. Vectorize Text
+3. Analyze Clusters
+4. Compare Predictions
+5. Plot Results
+6. Explore Clusters
 
 Required modules: pandas, bs4, sklearn, matplotlib, mpld3
