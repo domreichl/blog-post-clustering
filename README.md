@@ -1,5 +1,6 @@
 # blog-post-clustering
-using TfidfVectorizer and KMeans to cluster all my blog posts
+
+## Part 1
 
 My blog (https://www.mindcoolness.com) currently has 322 blog posts, which I have categorized into four broad topics. As I think it would be interesting to see how an unsupervised NLP model would cluster them, I have written this notebook.
 
@@ -15,4 +16,16 @@ To see the output of #6 and use the interactive plot, please visit https://nbvie
 
 Methods: TfidfVectorizer & KMeans
 
-Required modules: pandas, bs4, sklearn, matplotlib, mpld3
+## Part 2
+
+In Part 1 I used KMeans to cluster the corpus of my blog, analyzed some model predictions, and visualized my data. In this part, I want to compare 4 different models (KMeans, NMF, LSA, LDA) and 3 model combinations (NMF-based KMeans, LSA-based KMeans, LDA-based Kmeans) and evaluate them both qualitatively and quantitatively.
+
+Overview:
+1. Modules & Data
+2. Vectorization
+3. Word Frequency
+4. Models & Model Combinations
+5. Qualitative Evaluation
+6. Quantitative Evaluation
+
+Methods: CountVectorizer, TfidfVectorizer, KMeans, NMF, TruncatedSVD, LatentDirichletAllocation
