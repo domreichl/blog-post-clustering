@@ -18,7 +18,7 @@ Methods: TfidfVectorizer & KMeans
 
 ## Part 2
 
-In Part 1 I used KMeans to cluster the corpus of my blog, analyzed some model predictions, and visualized my data. In this part, I want to compare 4 different models (KMeans, NMF, LSA, LDA) and 3 model combinations (NMF-based KMeans, LSA-based KMeans, LDA-based Kmeans) and evaluate them both qualitatively and quantitatively.
+In Part 1, I used KMeans to cluster the corpus of my blog, analyzed some model predictions, and visualized my data. In this part, I want to compare 4 different models (KMeans, NMF, LSA, LDA) and 3 model combinations (NMF-based KMeans, LSA-based KMeans, LDA-based Kmeans) and evaluate them both qualitatively and quantitatively.
 
 Overview:
 1. Modules & Data
