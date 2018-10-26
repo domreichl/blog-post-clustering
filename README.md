@@ -14,8 +14,6 @@ Overview:
 
 To see the output of #6 and use the interactive plot, please visit https://nbviewer.jupyter.org/github/domreichl/blog-post-clustering/blob/master/bp_clustering.ipynb.
 
-Methods: TfidfVectorizer & KMeans
-
 ## Part 2
 
 In Part 1, I used KMeans to cluster the corpus of my blog, analyzed some model predictions, and visualized my data. In this part, I want to compare 4 different models (KMeans, NMF, LSA, LDA) and 3 model combinations (NMF-based KMeans, LSA-based KMeans, LDA-based Kmeans) and evaluate them both qualitatively and quantitatively.
@@ -27,5 +25,3 @@ Overview:
 4. Models & Model Combinations
 5. Qualitative Evaluation
 6. Quantitative Evaluation
-
-Methods: CountVectorizer, TfidfVectorizer, KMeans, NMF, TruncatedSVD, LatentDirichletAllocation
