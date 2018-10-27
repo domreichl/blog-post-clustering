@@ -25,3 +25,14 @@ Overview:
 4. Models & Model Combinations
 5. Qualitative Evaluation
 6. Quantitative Evaluation
+
+## Part 3
+
+In Part 3, which will be the last part for now, I use TensorFlow to build an autoencoder for clustering.
+
+Overview:
+1. Modules & Data
+2. Vectorization
+3. Autoencoder
+4. Evaluation
+5. Conclusion
