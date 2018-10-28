@@ -1,38 +1,25 @@
-# blog-post-clustering
+# Blog Post Clustering
 
-## Part 1
+My blog (https://www.mindcoolness.com) currently has 322 blog posts, which I have categorized into four broad topics:
+- Psychology & Cognitive Science
+- Willpower & Self-Improvement
+- Philosophy & Spirituality
+- Morality & Ethics
 
-My blog (https://www.mindcoolness.com) currently has 322 blog posts, which I have categorized into four broad topics. As I think it would be interesting to see how an unsupervised NLP model would cluster them, I have written this notebook.
+Recently, I experienced a curious desire to find out how unsupervised NLP models would cluster my writings, so I've created this notebook.
 
-Overview:
-1. Get data
-2. Vectorize text
-3. Analyze clusters
-4. Compare predictions
-5. Plot results
-6. Explore clusters
-
-To see the output of #6 and use the interactive plot, please visit https://nbviewer.jupyter.org/github/domreichl/blog-post-clustering/blob/master/bp_clustering.ipynb.
-
-## Part 2
-
-In Part 1, I used KMeans to cluster the corpus of my blog, analyzed some model predictions, and visualized my data. In this part, I want to compare 4 different models (KMeans, NMF, LSA, LDA) and 3 model combinations (NMF-based KMeans, LSA-based KMeans, LDA-based Kmeans) and evaluate them both qualitatively and quantitatively.
-
-Overview:
+## Overview
 1. Modules & Data
-2. Vectorization
+2. Word Vectorization
 3. Word Frequency
-4. Models & Model Combinations
-5. Qualitative Evaluation
-6. Quantitative Evaluation
+4. Clustering (KMeans)
+5. Cluster Visualization (MDS, TSNE)
+6. Cluster Exploration
+7. Predictive Evaluation
+8. More Models (NMF, LSA, LDA)
+9. Qualitative Evaluation
+10. Autoencoder
+11. Quantitative Evaluation
+12. Conclusion
 
-## Part 3
-
-In Part 3, which will be the last part for now, I use TensorFlow to build an autoencoder for clustering.
-
-Overview:
-1. Modules & Data
-2. Vectorization
-3. Autoencoder
-4. Evaluation
-5. Conclusion
+Required libraries: Pandas, Beautiful Soup 4, Matplotlib, Mpld3, Scikit-learn, TensorFlow
