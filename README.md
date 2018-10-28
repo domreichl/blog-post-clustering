@@ -22,4 +22,10 @@ Recently, I experienced a curious desire to find out how unsupervised NLP models
 11. Quantitative Evaluation
 12. Conclusion
 
-Required libraries: Pandas, Beautiful Soup 4, Matplotlib, Mpld3, Scikit-learn, TensorFlow
+## Libraries
+- Pandas
+- Beautiful Soup 4
+- Matplotlib
+- Mpld3
+- Scikit-learn
+- TensorFlow
