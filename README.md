@@ -22,7 +22,7 @@ Recently, I experienced a curious desire to find out how unsupervised NLP models
 11. Quantitative Evaluation
 12. Conclusion
 
-To see the interactive plot created in step #6, please visit https://nbviewer.jupyter.org/github/domreichl/blog-post-clustering/blob/master/bp_clustering.ipynb.
+To see the interactive plot created in step #6, please visit https://nbviewer.jupyter.org/github/domreichl/blog-post-clustering/blob/master/blog_post_clustering.ipynb.
 
 ## Libraries
 - Pandas
